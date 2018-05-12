@@ -15,27 +15,93 @@ animation: gradient 10s ease infinite;
 }
 
 
-.logo {
-  width:40%;
-  height:40%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+@keyframes duck {
+  from {
+  transform: translateY(200px);
+  opacity: 0;
+
+}
+
+to {
+  transform: translateY(0px);
+  opacity: 1;
+}
+}
+.cls-1 {
+  animation-name: duck;
+  animation-duration: 1000ms;
+  animation-fill-mode: both;
+}
+
+#b .cls-1 {
+  animation-delay: 600ms;
+  width: 20%;
+  height: 20%;
+
+}
+
+#e .cls-1 {
+  animation-delay: 800ms;
+
+}
+
+#q .cls-1 {
+  animation-delay: 1000ms;
+
+}
+
+#u .cls-1 {
+  animation-delay: 1200ms;
+
+}
+
+#e-2 .cls-1 {
+  animation-delay: 1400ms;
+
+}
+
+#line .cls-1 {
+  animation-delay: 1600ms;
+
+}
+
+#korean .cls-1 {
+  animation-delay: 1800ms;
+
 }
 
 
-a {
-  text-decoration: none;
-  color: #012954;
-  color:inherit;
+.svg {
+  position: relative;
+  width:20%;
+  height:20%;
   display: incline-block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.button {
+  display: incline-block;
+  text-align: center;
+  margin-top: 300px;
+  color: #FD5B5C;
+  margin-top: 300px;
+}
+
+.button a {
+  text-decoration: none;
+  color:inherit;
+  display: inline;
   border-radius: 20px;
   transition: 200ms;
   padding:1em;
   border: 1px solid;
   margin: .3em;
   text-decoration: none;
-  margin: 0 0 0 30px;
 
 }
+
+a:hover {
+  color:#5EFCE9;
 }
