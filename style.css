@@ -14,6 +14,14 @@ animation: gradient 10s ease infinite;
     100%{background-position:0% 50%}
 }
 
+.svg {
+  position: relative;
+  width:150px;
+  height:150px;
+  
+  margin-left: auto;
+  margin-right: auto;
+}
 
 @keyframes duck {
   from {
@@ -27,59 +35,56 @@ to {
   opacity: 1;
 }
 }
-.cls-1 {
-  animation-name: duck;
-  animation-duration: 1000ms;
-  animation-fill-mode: both;
-}
 
-#b .cls-1 {
+#b {
+  animation: duck 2s;
+  animation-iteration-count: 1;
   animation-delay: 600ms;
-  width: 20%;
-  height: 20%;
-
 }
 
-#e .cls-1 {
+#e {
+  animation: duck 2s;
+  animation-iteration-count: 1;
   animation-delay: 800ms;
 
 }
 
-#q .cls-1 {
+#q {
+  animation: duck 2s;
+  animation-iteration-count: 1;
   animation-delay: 1000ms;
 
 }
 
-#u .cls-1 {
+#u  {
+  animation: duck 2s;
+  animation-iteration-count: 1;
   animation-delay: 1200ms;
 
 }
 
-#e-2 .cls-1 {
+#e-2 {
+  animation: duck 2s;
+  animation-iteration-count: 1;
   animation-delay: 1400ms;
 
 }
 
-#line .cls-1 {
+#line {
+  animation: duck 2s;
+  animation-iteration-count: 1;
   animation-delay: 1600ms;
 
 }
 
-#korean .cls-1 {
+#korean {
+  animation: duck 2s;
+  animation-iteration-count: 1;
   animation-delay: 1800ms;
 
 }
 
 
-.svg {
-  position: relative;
-  width:20%;
-  height:20%;
-  display: incline-block;
-  margin-left: auto;
-  margin-right: auto;
-
-}
 
 .button {
   display: incline-block;
