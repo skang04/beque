@@ -15,9 +15,10 @@ animation: gradient 10s ease infinite;
 }
 
 .svg {
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
 }
 
 @keyframes duck {
@@ -81,6 +82,10 @@ to {
 
 }
 
+.logo {
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .button {
   display: block;
