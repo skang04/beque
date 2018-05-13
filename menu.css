@@ -1,12 +1,20 @@
-.lunch {
+.ayce p {
+  font-size: 25px;
+}
+
+
+.ayce {
+  max-width: 900px
   font-size: 24px;
   color:white;
   display: flex;
   text-align: center;
   margin: 0 auto;
-  min-height: 12em;
-  width:40%;
-  flex-direction:row;
-  justify-content: space-between;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 40%;
+}
 
+.lunch {
+  margin-right:70px;
 }
