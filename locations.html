@@ -1,0 +1,37 @@
+<html>
+    <head>
+      <title>ABOUT US</title>
+<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,700" rel="stylesheet">
+
+
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="stylesheet" type="text/css" href="about.css">
+
+<body>
+<a class="button"><div class="bar"></div></a>
+    <a class="closelink"><div class="bar"></div></a>
+
+<div class="navigation">
+    <span class="home">  <a href = "index.html"> HOME </span></a>
+      <a href = "menu.html"> MENU </a>
+      <a href = "locations.html"> LOCATIONS </a>
+    </div>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$( document ).ready(function() {
+
+  $(".button").click(function(){
+    $(".navigation").toggleClass("open");
+    $(this).toggleClass("active");
+  });
+
+  $(".closelink").click(function(){
+    $(".navigation").toggleClass("open");
+  });
+
+});
+</script>
