@@ -7,6 +7,15 @@ background-size: 400% 400%;
 animation: gradient 10s ease infinite;
 }
 
+.container{
+  justify-content: center;
+  display:flex;
+  flex-direction:column;
+  align-content: center;
+  align-items: center;
+  height: 100%;
+}
+
 
 @keyframes gradient {
     0%{background-position:0% 50%}
@@ -38,12 +47,15 @@ to {
   animation: duck 2s;
   animation-iteration-count: 1;
   animation-delay: 600ms;
+  animation-fill-mode: both;
 }
 
 #e {
   animation: duck 2s;
   animation-iteration-count: 1;
   animation-delay: 800ms;
+  animation-fill-mode: both;
+
 
 }
 
@@ -51,6 +63,8 @@ to {
   animation: duck 2s;
   animation-iteration-count: 1;
   animation-delay: 1000ms;
+  animation-fill-mode: both;
+
 
 }
 
@@ -58,6 +72,8 @@ to {
   animation: duck 2s;
   animation-iteration-count: 1;
   animation-delay: 1200ms;
+  animation-fill-mode: both;
+
 
 }
 
@@ -65,20 +81,21 @@ to {
   animation: duck 2s;
   animation-iteration-count: 1;
   animation-delay: 1400ms;
-
+  animation-fill-mode: both;
 }
 
 #line {
   animation: duck 2s;
   animation-iteration-count: 1;
   animation-delay: 1600ms;
-
+  animation-fill-mode: both;
 }
 
 #korean {
   animation: duck 2s;
   animation-iteration-count: 1;
   animation-delay: 1800ms;
+  animation-fill-mode: both;
 
 }
 
